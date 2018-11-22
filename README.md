@@ -44,33 +44,6 @@ The agent's objective is to reach a high velocity while avoiding collisions with
     <em>The higwhay-v0 environment.</em>
 </p>
 
-
-### Merge
-
-```python
-env = gym.make("highway-merge-v0")
-```
-
-In this task, the ego-vehicle starts on a main highway but soon approaches a road junction with incoming vehicles on the access ramp. The agent's objective is now to maintain a high velocity while making room for the vehicles so that they can safely merge in the traffic.
-
-<p align="center">
-    <img src="docs/media/merge.gif"><br/>
-    <em>The highway-merge-v0 environment.</em>
-</p>
-
-### Roundabout
-
-```python
-env = gym.make("highway-roundabout-v0")
-```
-
-In this task, the ego-vehicle if approaching a roundabout with flowing traffic. It will follow its planned route automatically, but has to handle lane changes and longitudinal control to pass the roundabout as fast as possible while avoiding collisions.
-
-<p align="center">
-    <img src="docs/media/roundabout-env.gif"><br/>
-    <em>The highway-roundabout-v0 environment.</em>
-</p>
-
 ## The framework
 
 New highway driving environments can easily be made from a set of building blocks.
